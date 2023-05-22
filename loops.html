@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+
+<body>
+    <script>
+        // <!-- type of loops -->
+
+        // <!-- 1 for -->
+        //  <!-- entry controlled -->
+
+        // 1.
+        var str = ""
+
+        var i, j;
+
+        //  rows
+        for (i = 1; i <= 5; i++) {
+
+            //  cols
+
+            for (j = 1; j <= i; j++) {
+                str += "*"
+
+            }
+
+            str += "\n"
+
+
+        }
+
+        console.log(str)
+
+
+        // 2.
+
+        var str = ""
+
+        var i, j;
+
+        //  rows
+        for (i = 6; i >= 1; i--) {
+
+            //  cols
+
+            for (j = 1; j <= i; j++) {
+                str += "*"
+
+            }
+
+            str += "\n"
+
+
+        }
+
+        console.log(str)
+
+
+
+        // 3
+
+        var str = ""
+
+        var i, j, k;
+
+        //  rows
+        for (i = 1; i <= 4; i++) {
+
+            //  cols
+
+            for (j = 5; j >= i; j--) {
+                str += " "
+
+            }
+
+            for (k = 1; k <= i; k++) {
+                str += "* "
+
+            }
+
+            str += "\n";
+
+
+        }
+
+        console.log(str)
+
+
+        // 4
+
+
+        var str = ""
+
+        var i, j, k;
+
+        //  rows
+        for (i = 1; i <= 4; i++) {
+
+            //  cols
+
+            for (j = 1; j <= 5 - i; j++) {
+                str += "* "
+
+            }
+
+            for (k = 1; k <= i; k++) {
+                str += "  ";
+
+            }
+
+            str += "\n";
+
+
+        }
+
+        console.log(str)
+
+
+        
+            
+
+
+        
+    </script>
+</body>
+
+</html>
